@@ -408,7 +408,7 @@
   background: var(--bg-overlay-1);
 }
 
-.theme-light .container_fc4f04.themed_fc4f04,
+.theme-dark .container_fc4f04.themed_fc4f04,
 .theme-light .container_fc4f04.themed_fc4f04 {
     background: var(--bg-overlay-2);
 }
