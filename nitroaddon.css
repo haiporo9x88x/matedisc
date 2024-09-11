@@ -407,14 +407,19 @@
 
 .theme-dark .container_fc4f04.themed_fc4f04,
 .theme-light .container_fc4f04.themed_fc4f04 {
-    background: var(--bg-overlay-2);
+  background: var(--bg-overlay-2);
 }
 
 #vc-spotify-player .vc-spotify-play,
 #vc-spotify-player .vc-spotify-pause {
-    background: var(--bg-overlay-5);
+  background: var(--bg-overlay-5);
 }
 .theme-dark .slider_c7a159 .bar_c7a159 .barFill_c7a159,
 .theme-light .slider_c7a159 .bar_c7a159 .barFill_c7a159 {
   background: var(--bg-overlay-6);
+}
+
+.theme-dark .button_df39bd,
+.theme-light .button_df39bd {
+  background: var(--bg-overlay-3) !important;
 }
