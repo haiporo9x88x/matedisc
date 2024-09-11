@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.0.0 */
+/* Version 1.1.0 */
 
 /*
 *
@@ -3033,6 +3033,10 @@ html:not(.app-focused) .typeWindows_a934d8 .winButton_a934d8.winButtonMinMax_a93
   background-color: var(--sidebar-panel-color) !important;
   border-radius: 4px;
   border-bottom: none !important;
+}
+.panels_a4d4d9 > div:empty:first-of-type + #vc-spotify-player {
+  border-top-left-radius: var(--sidebar-panel-radius-big);
+  border-top-right-radius: var(--sidebar-panel-radius-big);
 }
 #vc-spotify-player #vc-spotify-album-image {
   border-radius: 50%;
