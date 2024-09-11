@@ -326,11 +326,16 @@
   background: var(--bg-overlay-1);
 }
 
-.container_b01337,
-.container_d7c696,
-.container_a2e886,
-.box_f70f48,
-.enableCard_c55991 {
+.theme-dark .container_b01337,
+.theme-dark .container_d7c696,
+.theme-dark .container_a2e886,
+.theme-dark .box_f70f48,
+.theme-dark .enableCard_c55991,
+.theme-light .container_b01337,
+.theme-light .container_d7c696,
+.theme-light .container_a2e886,
+.theme-light .box_f70f48,
+.theme-light .enableCard_c55991 {
   background: var(--bg-overlay-1);
 }
 .theme-dark .row_e677b7,
@@ -347,8 +352,10 @@
   background: var(--bg-overlay-3);  
 }
 
-.guildContainer_e0d799,
-.wrapper_d4ec61 {
+.theme-dark .guildContainer_e0d799,
+.theme-dark .wrapper_d4ec61,
+.theme-light .guildContainer_e0d799,
+.theme-light .wrapper_d4ec61 {
   background: var(--bg-overlay-1);
 }
 
@@ -356,14 +363,18 @@
 .theme-light .wrapper_e55051 {
   background: var(--bg-overlay-1);
 }
-
-.dragRegion_fc867b {
+.theme-dark .dragRegion_fc867b,
+.theme-light .dragRegion_fc867b {
   background: var(--bg-overlay-2);
 }
-.rewardDescriptionContainer_c2d7e2 {
+
+.theme-dark .rewardDescriptionContainer_c2d7e2,
+.theme-light .rewardDescriptionContainer_c2d7e2 {
   background: var(--bg-overlay-3);
 }
-.container_ebf06d {
+
+.theme-dark .container_ebf06d,
+.theme-light .container_ebf06d {
   background: var(--bg-overlay-3);
 }
 
@@ -376,20 +387,28 @@
   background: var(--bg-overlay-1);
 }
 
-.defaultKeybindGroup_f916fc,
-.defaultKeybind_f916fc {
+.theme-dark .defaultKeybindGroup_f916fc,
+.theme-dark .defaultKeybind_f916fc,
+.theme-light .defaultKeybindGroup_f916fc,
+.theme-light .defaultKeybind_f916fc {
   background: var(--bg-overlay-1);
 }
 
-.nowPlayingAdd_fd966d + .marginTop40_f7730b .description_b89ec7,
-.nowPlayingAdd_fd966d + .marginTop40_f7730b .eyebrow_c46f6a {
-  background: var(--bg-overlay-1);
-}
-.notDetected_fd966d,
-.game_fd966d {
+.theme-dark .nowPlayingAdd_fd966d + .marginTop40_f7730b .description_b89ec7,
+.theme-dark .nowPlayingAdd_fd966d + .marginTop40_f7730b .eyebrow_c46f6a,
+.theme-light .nowPlayingAdd_fd966d + .marginTop40_f7730b .description_b89ec7,
+.theme-light .nowPlayingAdd_fd966d + .marginTop40_f7730b .eyebrow_c46f6a {
   background: var(--bg-overlay-1);
 }
 
-.container_fc4f04.themed_fc4f04 {
+.theme-dark .notDetected_fd966d,
+.theme-dark .game_fd966d,
+.theme-light .notDetected_fd966d,
+.theme-light .game_fd966d {
+  background: var(--bg-overlay-1);
+}
+
+.theme-light .container_fc4f04.themed_fc4f04,
+.theme-light .container_fc4f04.themed_fc4f04 {
     background: var(--bg-overlay-2);
 }
