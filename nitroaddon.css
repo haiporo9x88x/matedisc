@@ -199,7 +199,7 @@
 .theme-dark .chatContent_a7d72e,
 .theme-light .chat_a7d72e,
 .theme-light .chatContent_a7d72e {
-  background: transparent !important;
+  background: var(--bg-overlay-2) !important;
 }
 .theme-dark .form_a7d72e,
 .theme-light .form_a7d72e {
@@ -422,4 +422,57 @@
 .theme-dark .button_df39bd,
 .theme-light .button_df39bd {
   background: var(--bg-overlay-3) !important;
+}
+
+.theme-dark .wrapper_f7e168,
+.theme-light .wrapper_f7e168 {
+  background: var(--bg-overlay-3);
+}
+.theme-dark .menu_d90b3d,
+.theme-light .menu_d90b3d {
+  background: var(--bg-overlay-4);
+}
+
+.theme-dark .container_eedf95,
+.theme-light .container_eedf95 {
+  background: var(--bg-overlay-3);
+}
+
+.theme-dark .container_a6d69a,
+.theme-light .container_a6d69a {
+  background: var(--bg-overlay-2);
+}
+
+.theme-dark .container_e664f3,
+.theme-light .container_e664f3 {
+  background: var(--bg-overlay-4);
+}
+.theme-dark .container_e664f3 .container_acb8b3,
+.theme-light .container_e664f3 .container_acb8b3 {
+  background: var(--bg-overlay-3);
+}
+
+.theme-dark .header_a6d69a,
+.theme-light .header_a6d69a {
+  background: var(--bg-overlay-1);
+}
+.theme-dark .matchingPostsRow_a6d69a,
+.theme-light .matchingPostsRow_a6d69a {
+  background: var(--bg-overlay-3);
+}
+.theme-dark .container_a57509,
+.theme-dark .container_d331f1,
+.theme-light .container_a57509,
+.theme-light .container_d331f1 {
+  background: var(--bg-overlay-4);
+}
+.theme-dark .container_a57509.isOpen_a57509,
+.theme-dark .container_d331f1.isOpen_a57509,
+.theme-dark .container_a57509.isOpen_d331f1,
+.theme-dark .container_d331f1.isOpen_d331f1,
+.theme-light .container_a57509.isOpen_a57509,
+.theme-light .container_d331f1.isOpen_a57509,
+.theme-light .container_a57509.isOpen_d331f1,
+.theme-light .container_d331f1.isOpen_d331f1 {
+  background: var(--bg-overlay-5) !important;
 }
