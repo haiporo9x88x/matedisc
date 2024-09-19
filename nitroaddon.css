@@ -476,3 +476,18 @@
 .theme-light .container_d331f1.isOpen_d331f1 {
   background: var(--bg-overlay-5) !important;
 }
+
+.theme-dark .container_e88961,
+.theme-light .container_e88961 {
+  background: var(--bg-overlay-2);
+}
+
+.theme-dark .wrapper_d880dc.chatSidebarOpen_d880dc .callContainer_d880dc,
+.theme-light .wrapper_d880dc.chatSidebarOpen_d880dc .callContainer_d880dc {
+  background: var(--bg-overlay-2);
+}
+
+.theme-dark .root_a5ea57,
+.theme-light .root_a5ea57 {
+  background: var(--bg-overlay-3);
+}
