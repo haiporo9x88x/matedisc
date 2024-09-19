@@ -1523,9 +1523,6 @@ html:not(.app-focused) .typeWindows_a934d8 .winButton_a934d8.winButtonMinMax_a93
 .wrapper_d880dc .callContainer_d880dc {
   border-radius: var(--card-radius-big) 0 0 var(--card-radius-big);
 }
-.wrapper_d880dc.chatSidebarOpen_d880dc .callContainer_d880dc {
-  border-radius: var(--card-radius-big);
-}
 
 .content_a7d72e:before {
   display: none !important;
@@ -2345,13 +2342,9 @@ html:not(.app-focused) .typeWindows_a934d8 .winButton_a934d8.winButtonMinMax_a93
  *  THREAD
  *
  */
-.resizeHandle_d1c246 {
-  background: var(--main-alt);
-}
 
 .container_d1c246 {
   background-color: var(--chat-color);
-  border-radius: var(--card-radius-big) var(--card-radius-big) 0;
 }
 .container_d1c246.floating_d1c246 {
   filter: drop-shadow(-8px 0 10px hsl(var(--black-500-hsl)/0.125));
@@ -3036,6 +3029,7 @@ html:not(.app-focused) .typeWindows_a934d8 .winButton_a934d8.winButtonMinMax_a93
 }
 #vc-spotify-player #vc-spotify-album-image {
   border-radius: 50%;
+  animation: spin 6s linear infinite;
 }
 #vc-spotify-player .track_c7a159 {
   top: 12px;
@@ -3064,18 +3058,6 @@ html:not(.app-focused) .typeWindows_a934d8 .winButton_a934d8.winButtonMinMax_a93
 #vc-spotify-player .vc-spotify-pause {
   border-radius: 10px;
   animation: vc-spotify-pause-button var(--default-time) var(--default-animation);
-}
-
-#vc-spotify-album-expanded-wrapper {
-  margin: -12px -12px 0;
-}
-#vc-spotify-album-expanded-wrapper img {
-  border-radius: var(--card-radius-big) !important;
-}
-
-.activityPanel_a4d4d9 + .wrapper_adcaac:empty + #vc-spotify-player #vc-spotify-album-expanded-wrapper img,
-.wrapper_adcaac:not(:empty) + #vc-spotify-player #vc-spotify-album-expanded-wrapper img {
-  border-radius: 4px !important;
 }
 
 #vc-spotify-progress-bar {
@@ -12746,6 +12728,10 @@ body:active .container_ac201b:not(:active) {
 .container__56cd1 .assetsLargeImage_f866f2 {
   border-radius: 50%;
 }
+.assetsLargeImage_f866f2 {
+  border-radius: 50%;
+  animation: spin 6s linear infinite;
+}
 
 /*
  *
@@ -12791,6 +12777,11 @@ body:active .container_ac201b:not(:active) {
 .shareToChannelButton_a35965 {
   padding-right: 0;
   border-right: none;
+}
+
+.imageContainer_fa854f .contentImage_fa854f {
+  border-radius: 50%;
+  animation: spin 6s linear infinite;
 }
 
 /*
@@ -17595,4 +17586,11 @@ body:active .container_e664f3:not(:active) {
     transform: rotate(-2deg);
   }
 }
-
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
