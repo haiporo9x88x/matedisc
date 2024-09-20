@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.1.0 */
+/* Version 1.2.0 */
 
 /*
 *
@@ -9975,7 +9975,6 @@ body:active .root_f9a4c9 .container_e664f3:not(:active) {
 }
 .connectedAccounts_ab12c6 .connectedAccountContainer_ab12c6 {
   --card-color-filled: var(--card-color-hover);
-  --card-radius-big: var(--card-radius);
   margin-top: 16px;
   background-color: var(--card-color-filled);
   border: none;
