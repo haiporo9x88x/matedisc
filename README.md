@@ -3,38 +3,53 @@
 <hr>
 
 ## Original Version
-[BetterDiscord download](https://betterdiscord.app/theme/MaterialDiscord)
+
+[BetterDiscord](https://betterdiscord.app/theme/MaterialDiscord)
+
 [Github](https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord)
 <br>
 
-Vencord link
+## How to Install
+1. ### Vencord
+
+
 ```
-https://haiporo9x88.github.io/matedisc/theme.css
+https://haiporo9x88x.github.io/matedisc/theme.css 
 ```
+* Copy link above and paste to "Online Theme".
+
+*Note*: For Nitro user who want to use this theme with nitro custom appearance, use this too: https://haiporo9x88x.github.io/matedisc/nitroaddon.css
+
+
+2. ### Betterdiscord
+
+* Click on "Releases", under "Assets" choose .zip file (one of them and not the source code file).
+* Drag the downloaded file to your theme file. 
+
+*Note*: you can also do these steps for Vencord.
 
 ## Previews
 
-(Previews are subject to be out of date, but i will update those after each big change)
-
 #### Main chat area
 
-![discord-preview1](https://i.imgur.com/Ymt6eLk.jpeg)
+(So lazy to take some pics)
 
 #### User settings
 
-![discord-preview2](https://i.imgur.com/qcwtoNz.jpeg)
+(So lazy to take some pics)
 
 
 ## Variables
 
 #### Some elements you can change/edit depend on your choice
  - `--app-font` - The font. I think the font is so perfect but you can change it anytime, remember the font must either be installed on your pc or imported.
- - `--main-color` - The background. (the main reason I make this)
- - `--popout-color` - The background for some menus and modals.
+ - `--app-button-...` - the color of min, max, close app buttons.
+ - `--accent-hsl` - the color of some elements. Dont change this, change `--accent-hue`, `--accent-saturation`, `--accent-lightness` instead.
+ - `--card-radius`, `--card-radius-big` - border radius of most things.
+ - ...
 
-*Note 1*: Some elements has two values for both `.theme-dark` and `.theme-light`, you can edit both of theme or only one (your current theme color in Appearance setting).
-*Note 2*: You can edit a lot of things. But if you do that, it means my alternative version is not the version you want, so you can use the OG one and edit what you want.
-> idk why i write this README although no one will read this shit. If someone read this line, i want to ask you that how tf you find this shit lol.
+*Note*: You can edit a lot of elements. But if you do that, it means my alternative version is not the version you want, so you can use the OG one and edit what you want.
+> dont try to find and ask me anything, i will not reply!
 
 
 [paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat&logo=paypal&color=blue
