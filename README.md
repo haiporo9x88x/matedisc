@@ -18,8 +18,11 @@ https://haiporo9x88x.github.io/matedisc/theme.css
 ```
 * Copy link above and paste to "Online Theme".
 
-*Note*: For Nitro user who want to use this theme with nitro custom appearance, use this too: https://haiporo9x88x.github.io/matedisc/nitroaddon.css
+*Note*: For Nitro user who want to use this theme with nitro custom appearance, use this too: 
 
+```
+https://haiporo9x88x.github.io/matedisc/nitroaddon.css
+```
 
 2. ### Betterdiscord
 
