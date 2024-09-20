@@ -482,9 +482,9 @@
   background: var(--bg-overlay-2);
 }
 
-.theme-dark .wrapper_d880dc.chatSidebarOpen_d880dc .callContainer_d880dc,
-.theme-light .wrapper_d880dc.chatSidebarOpen_d880dc .callContainer_d880dc {
-  background: var(--bg-overlay-2);
+.theme-dark .wrapper_d880dc .callContainer_d880dc,
+.theme-light .wrapper_d880dc .callContainer_d880dc {
+  background: var(--bg-overlay-2) ;
 }
 
 .theme-dark .root_a5ea57,
