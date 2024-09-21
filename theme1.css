@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.2.0.1 */
+/* Version 1.2.0.2 */
 
 /*
 *
@@ -5394,8 +5394,7 @@ div[role=radiogroup].group_d25d19 {
  *
  */
 ::-webkit-scrollbar {
-  width: var(--scrollbar-width) !important;
-  height: var(--scrollbar-width) !important;
+  display: none;
 }
 ::-webkit-scrollbar-track {
   margin: 0 !important;
@@ -17199,10 +17198,9 @@ body:active .container_e664f3:not(:active) {
 }
 .sidebar_c25c6d .side_a0 > div:not([class])[style="margin-bottom: 8px;"] {
   display: flex;
-  position: fixed;
   align-items: flex-end;
   width: var(--sidebar-width);
-  height: calc(60px + var(--input-height));
+  height: 60px;
   top: var(--app-title-bar-height);
   margin-bottom: 0 !important;
   background-color: transparent;
@@ -17389,10 +17387,6 @@ body:active .container_e664f3:not(:active) {
   background-color: var(--main-alt);
   pointer-events: none;
   z-index: -1;
-}
-
-.contentRegion_c25c6d {
-  z-index: 2;
 }
 
 /*
