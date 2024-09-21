@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.2.0 */
+/* Version 1.2.0.1 */
 
 /*
 *
@@ -23,8 +23,8 @@
 :root {
   --app-font: "Google Sans";
   --app-bg: var(--main-alt);
-  --app-watermark-one: "Quang ";
-  --app-watermark-two: "Buslieesm";
+  --app-watermark-one: "Dis ";
+  --app-watermark-two: "cac";
   --app-title-bar-height: 22px;
   --app-button-min: hsl(39,100%,63%);
   --app-button-max: hsl(143,100%,40%);
@@ -17218,7 +17218,7 @@ body:active .container_e664f3:not(:active) {
 }
 
 .sidebar_c25c6d .item_a0 {
-  width: calc(var(--sidebar-width) - 18px);
+  width: calc(var(--sidebar-width) - 30px);
   height: 32px;
   margin-left: 12px;
   padding: 0 16px;

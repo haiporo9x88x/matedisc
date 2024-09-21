@@ -27,7 +27,7 @@ https://haiporo9x88x.github.io/matedisc/nitroaddon.css
 2. ### Betterdiscord
 
 * Click on "Releases", under "Assets" choose .zip file (one of them and not the source code file).
-* Drag the downloaded file to your theme file. 
+* Drag the downloaded file to your themes folder. 
 
 *Note*: you can also do these steps for Vencord.
 
