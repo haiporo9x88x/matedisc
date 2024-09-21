@@ -17188,7 +17188,7 @@ body:active .container_e664f3:not(:active) {
 }
 
 .sidebar_c25c6d {
-  --sidebar-width: 240px;
+  --sidebar-width: 200px;
   width: var(--sidebar-width);
   margin: 0;
   padding: 60px 0 40px;
@@ -17212,13 +17212,12 @@ body:active .container_e664f3:not(:active) {
 .sidebar_c25c6d .container_effbe2 {
   width: calc(var(--sidebar-width) - 18px);
   height: var(--input-height);
-  margin: 0 0 8px 12px;
 }
 
 .sidebar_c25c6d .item_a0 {
-  width: calc(var(--sidebar-width) - 30px);
+  width: calc(var(--sidebar-width) - 20px);
   height: 32px;
-  margin-left: 12px;
+  margin-left: -5px;
   padding: 0 16px;
   line-height: 32px;
   border-radius: var(--channel-radius);
