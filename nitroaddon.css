@@ -491,3 +491,9 @@
 .theme-light .root_a5ea57 {
   background: var(--bg-overlay-3);
 }
+.theme-dark .drawerSizingWrapper_af5dbb .navList_af5dbb, 
+.theme-dark .drawerSizingWrapper_af5dbb .navList__8438b,
+.theme-light .drawerSizingWrapper_af5dbb .navList_af5dbb, 
+.theme-light .drawerSizingWrapper_af5dbb .navList__8438b {
+  background: var(--bg-overlay-2);
+}
