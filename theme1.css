@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.3.1 */
+/* Version 1.3.1.1 */
 
 /*
 *
@@ -2352,7 +2352,7 @@ html:not(.app-focused) .typeWindows_a934d8 .winButton_a934d8.winButtonMinMax_a93
 }
 
 .chatHeaderBar_e2f46e {
-  background-color: var(--chat-color);
+  background-color: transparent;
   border-bottom: 1px solid var(--card-border-color);
 }
 
@@ -5394,7 +5394,8 @@ div[role=radiogroup].group_d25d19 {
  *
  */
 ::-webkit-scrollbar {
-  display: none;
+  width: var(--scrollbar-width) !important;
+  height: var(--scrollbar-width) !important;
 }
 ::-webkit-scrollbar-track {
   margin: 0 !important;
