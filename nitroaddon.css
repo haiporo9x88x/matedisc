@@ -497,3 +497,11 @@
 .theme-light .drawerSizingWrapper_af5dbb .navList__8438b {
   background: var(--bg-overlay-2);
 }
+
+.vc-notification-root {
+  background: var(--bg-overlay-1,var(--background-tertiary)) !important;
+}
+
+.container_b6cd66 {
+  background: var(--bg-overlay-1,var(--background-tertiary)) !important;
+}
