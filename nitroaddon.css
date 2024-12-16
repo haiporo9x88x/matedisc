@@ -213,15 +213,6 @@
 .theme-light .wrapper_f9f2ca {
   background: var(--bg-overlay-3, var(--background-secondary));
 }
-.theme-dark .wrapper_f9f2ca:not(.groupStart_d5deea):before, .theme-dark .wrapper_f9f2ca:not(.groupStart_d5deea):after,
-.theme-light .wrapper_f9f2ca:not(.groupStart_d5deea):before,
-.theme-light .wrapper_f9f2ca:not(.groupStart_d5deea):after {
-  width: calc(var(--message-radius) / 3);
-  height: calc(var(--message-radius) / 2);
-  top: calc(var(--message-radius) / 2 * -1);
-  background: var(--bg-overlay-3, var(--background-secondary));
-  border: none;
-}
 .theme-dark .wrapper_f9f2ca:hover,
 .theme-light .wrapper_f9f2ca:hover {
   background: var(--bg-overlay-4, var(--background-secondary)) !important;
@@ -231,10 +222,6 @@
 .theme-light .messageListItem_d5deea:hover + .messageListItem_d5deea .wrapper_f9f2ca:not(.groupStart_d5deea):after {
   background: var(--bg-overlay-4, var(--background-secondary));
   border: none;
-}
-.theme-dark .mentioned_d5deea .messageContent_f9f2ca,
-.theme-light .mentioned_d5deea .messageContent_f9f2ca {
-  background: var(--bg-overlay-5, var(--background-primary));
 }
 .theme-dark .wrapper_a7c28c,
 .theme-light .wrapper_a7c28c {
