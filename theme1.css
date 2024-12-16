@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.3.3 */
+/* Version 1.3.4 */
 
 /*
 *
@@ -2178,7 +2178,7 @@ html:not(.app-focused) .typeWindows_a934d8 .winButton_a934d8.winButtonMinMax_a93
   background-color: transparent;
   transition: 200ms ease-in-out;
 }
-.form_a7d72e .typing_d7ebeb .slowModeIcon_d7ebeb {
+.form_a7d72e .typing_d7ebeb .slowModeIcon_f85cd6 {
   margin-right: 8px;
 }
 
@@ -6660,18 +6660,18 @@ div[role=radiogroup].group_d25d19 {
   margin-top: 0;
 }
 
-.attachment_b52bef {
+.fileWrapper_f46c86 {
   background-color: var(--attachment-color);
   border-radius: var(--media-radius);
   border: none;
 }
-.attachment_b52bef.newMosaicStyle_d8e2d0 {
+.fileWrapper_f46c86.newMosaicStyle_d8e2d0 {
   border-radius: var(--media-radius);
 }
-.attachment_b52bef .downloadButton__3fb6d {
+.fileWrapper_f46c86 .downloadButton__3fb6d {
   margin-left: 0;
 }
-.attachment_b52bef .downloadButton__3fb6d path {
+.fileWrapper_f46c86 .downloadButton__3fb6d path {
   d: path("M13 5v6h1.17L12 13.17 9.83 11H11V5h2m2-2H9v6H5l7 7 7-7h-4V3zm4 15H5v2h14v-2z") !important;
 }
 
@@ -6713,10 +6713,10 @@ div[role=radiogroup].group_d25d19 {
   border-radius: var(--media-radius);
 }
 
-.progress_b52bef {
+.progress_f46c86 {
   background-color: hsl(var(--accent-hsl), 0.3) !important;
 }
-.progress_b52bef .progressBar-1T6LYX {
+.progress_f46c86 .progressBar-1T6LYX {
   background-color: hsl(var(--accent-hsl--material-you)) !important;
 }
 
