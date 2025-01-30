@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.4.0 */
+/* Version 1.4.1 */
 
 /*
 *
@@ -7412,11 +7412,6 @@ div.message__5126c.cozyMessage__5126c.wrapper_c19a55.cozy_c19a55.zalgo_c19a55 {
 
 .theme-light .message__5126c.selected__5126c, .theme-light.mouse-mode.full-motion .message__5126c:hover{
   background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
-}
-
-.cozy_c19a55 .messageContent_c19a55{
-  margin-left: 0px;
-  padding-left: 0px;
 }
 
 .contentContainer_d9be46 .themedBackground__74017 {
