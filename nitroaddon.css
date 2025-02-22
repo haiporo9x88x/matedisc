@@ -492,3 +492,8 @@
 .container_fcf29c {
   background: var(--bg-overlay-1,var(--background-tertiary)) !important;
 }
+
+.theme-dark .content__37e49,
+.theme-light .content__37e49 {
+  background: transparent !important;
+}
