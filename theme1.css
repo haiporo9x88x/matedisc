@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.5.2 */
+/* Version 1.5.2.1 */
 
 /*
 *
@@ -242,9 +242,6 @@
   font-family: var(--app-font), sans-serif !important;
 }
 
-::selection {
-  text-shadow: none;
-}
 
 body,
 .app_a3002d,
