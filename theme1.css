@@ -15866,7 +15866,7 @@ body:active .container_d9c882:not(:active) {
   border: none;
 }
 
-.basicThemeSelectors_fbfab6fbfab6 + .premiumFeatureBorder__65c15 {
+.basicThemeSelectors_fbfab6fbfab6fbfab6 + .premiumFeatureBorder__65c15 {
   margin: 0 -8px -8px;
   border-radius: calc(var(--card-radius-big) - 4px);
 }
@@ -15875,10 +15875,10 @@ body:active .container_d9c882:not(:active) {
   gap: 8px;
 }
 
-.basicThemeSelectors_fbfab6fbfab6 {
+.basicThemeSelectors_fbfab6fbfab6fbfab6 {
   margin-bottom: 0;
 }
-.basicThemeSelectors_fbfab6fbfab6 .themeSelectionContainer__36dee {
+.basicThemeSelectors_fbfab6fbfab6fbfab6 .themeSelectionContainer__36dee {
   width: 84px;
   height: 84px;
   padding: 12px;
