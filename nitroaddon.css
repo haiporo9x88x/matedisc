@@ -10,9 +10,6 @@
 .theme-dark .base_c48ade,
 .theme-light .base_c48ade {
   background: var(--bg-overlay-2, var(--background-secondary));
-  border-top-left-radius: var(--card-radius-big);
-  border-top-right-radius: var(--card-radius-big);
-  border-bottom-left-radius: var(--card-radius-big);
 }
 .theme-dark .themed__9293f,
 .theme-light .themed__9293f {
@@ -496,4 +493,13 @@
 .theme-dark .content__37e49,
 .theme-light .content__37e49 {
   background: transparent !important;
+}
+
+.custom-theme-background .itemsContainer_ef3116 {
+  background: var(--bg-overlay-2);
+}
+
+.theme-dark .members_c8ffbb, .theme-dark .members_c8ffbb > div,
+.theme-light .members_c8ffbb, .theme-light .members_c8ffbb > div {
+  background: var(--bg-overlay-2);
 }
