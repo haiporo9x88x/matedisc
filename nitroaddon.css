@@ -99,7 +99,7 @@
 }
 .theme-dark .scroller_ef3116,
 .theme-light .scroller_ef3116 {
-  background: transparent;
+  background: var(--bg-overlay-2);
 }
 .theme-dark .wrapper__8436d .childWrapper_a6ce15,
 .theme-light .wrapper__8436d .childWrapper_a6ce15 {
@@ -169,7 +169,7 @@
 }
 .theme-dark .sidebar_c48ade .container_f37cb1:not(.hasBanner_f37cb1) .header_f37cb1,
 .theme-light .sidebar_c48ade .container_f37cb1:not(.hasBanner_f37cb1) .header_f37cb1 {
-  background-color: transparent;
+  background: var(--bg-overlay-2);
 }
 .theme-dark .container__2637a,
 .theme-light .container__2637a {
