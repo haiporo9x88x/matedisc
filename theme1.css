@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.6.3 */
+/* Version 1.6.3.1 */
 
 /*
 *
@@ -988,6 +988,7 @@ body,
   margin-bottom: 2px;
   border-radius: var(--sidebar-panel-radius-small);
   border-bottom: none !important;
+  border: 1px solid var(--card-border-color);
 }
 
 .activityPanel_c48ade {
