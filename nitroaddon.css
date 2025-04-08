@@ -398,6 +398,10 @@
 #vc-spotify-player .vc-spotify-pause {
   background: var(--bg-overlay-5);
 }
+#vc-spotify-button:hover {
+  background: var(--bg-overlay-5);
+}
+
 .theme-dark .slider_a562c8 .bar_a562c8 .barFill_a562c8,
 .theme-light .slider_a562c8 .bar_a562c8 .barFill_a562c8 {
   background: var(--bg-overlay-6);
@@ -502,4 +506,9 @@
 .theme-dark .members_c8ffbb, .theme-dark .members_c8ffbb > div,
 .theme-light .members_c8ffbb, .theme-light .members_c8ffbb > div {
   background: var(--bg-overlay-2);
+}
+
+.theme-dark .jumpToPresentBar__0f481,
+.theme-light .jumpToPresentBar__0f481 {
+  background: var(--bg-overlay-4);
 }

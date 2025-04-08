@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.6.4 */
+/* Version 1.6.5 */
 
 /*
 *
@@ -58,7 +58,7 @@
   --message-padding-side: 12px;
   --main-textarea-color: var(--input-color);
   --main-textarea-border: var(--input-border-color);
-  --main-textarea-radius: 24px;
+  --main-textarea-radius: 27px;
   --media-radius: calc(var(--message-radius) / 1.75);
   --card-radius: 8px;
   --card-radius-big: 18px;
@@ -303,7 +303,7 @@ body,
   border-bottom-right-radius: 0;
 }
 
-*
+/*
  *
  *	LOGIN SCREEN
  *
@@ -3108,7 +3108,7 @@ body,
   animation: spin 6s linear infinite;
 }
 #vc-spotify-player .track_a562c8 {
-  top: 12px;
+  top: 4px;
 }
 #vc-spotify-player .grabber_a562c8 {
   background-color: hsl(var(--accent-hsl--material-you)) !important;
@@ -3117,14 +3117,12 @@ body,
   gap: 8px !important;
 }
 #vc-spotify-player .vc-spotify-button {
-  color: var(--text-normal) !important;
   transition: var(--default-time) var(--default-animation) background-color;
 }
 #vc-spotify-player .vc-spotify-play,
 #vc-spotify-player .vc-spotify-pause {
   padding: 4px;
-  background-color: hsl(var(--accent-hsl--material-you));
-  color: var(--accent-text-color--material-you);
+  color: red;
   transition: var(--default-time) var(--default-animation) border-radius;
 }
 #vc-spotify-player .vc-spotify-play {
@@ -3592,7 +3590,7 @@ body,
 }
 
 .bd-addon-store {
-  margin: 16px 0;
+  margin: 16px 0 32px 0;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 16px clamp(8px, 2vw, 16px);
   justify-content: center;
@@ -3898,7 +3896,7 @@ body,
   transition: var(--default-time) var(--default-animation) all;
 }
 .vc-addon-card .container__87bf1.checked__87bf1 .slider__87bf1 {
-  transform: translate(calc(100% - 2px), -50%) !important;
+  transform: translate(calc(100% - 1px), -50%) !important;
 }
 
 .vc-addon-header {
@@ -4943,7 +4941,7 @@ body,
   --button-text-color: var(--accent-text-color--material-you);
   --button-shadow: none;
   --button-outline: none;
-  background-color: var(--button-background) !important;
+  background-color: transparent !important;
   border-radius: var(--button-radius);
   border: var(--button-outline) !important;
   box-shadow: var(--button-shadow);
@@ -5509,6 +5507,11 @@ body,
 }
 
 .inputWrapper__0f084 .inputPrefix_ac72c6 {
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+.inputWrapper__0f084 .inputPrefix_ac72c6 + .input__0f084 {  
   padding-left: 32px;
 }
 
@@ -6369,18 +6372,16 @@ div[role=radiogroup].group__344e6 {
  *	TOASTS
  *
  */
-.toast {
-  padding: 12px 16px;
-  background-color: rgba(70, 70, 70, 0.8);
+.toast,
+.toast__3fde7 {
+  height: 40px;
+  padding: 0 16px;
   border-radius: 20px;
+  border: none;
   box-shadow: none;
   font-size: 1em;
   font-weight: 400;
-  color: #fff;
-}
-
-.toast__3fde7 {
-  background-color: var(--popout-color);
+  color: var(--tooltip-text-color);
 }
 
 .toast_g4bfgI,
@@ -6692,7 +6693,7 @@ div[role=radiogroup].group__344e6 {
 .interactive_bf1984 .section__00943:first-of-type {
   border-radius: var(--card-radius-big) var(--card-radius-big) 4px 4px;
 }
-.interactive_bf1984 .section__00943:last-of-type {
+.interactive_bf1984 .section__00943:not(:first-of-type):last-of-type {
   margin-bottom: 0;
   border-radius: 4px 4px var(--card-radius-big) var(--card-radius-big);
 }
@@ -14195,8 +14196,8 @@ body:active .container_d9c882:not(:active) {
   padding: 8px 0;
 }
 .menuOverlay_af7fb7 .button__201d5 {
-  --button-padding: 0 12px;
-  --button-radius: 0;
+  padding: 9px 12px;
+  border-radius: 0;
   transition: var(--default-time) var(--default-animation) background-color;
 }
 .menuOverlay_af7fb7 .button__201d5:hover {
@@ -14258,7 +14259,7 @@ body:active .container_d9c882:not(:active) {
 .container__8061a {
   height: 24px;
   margin: 0;
-  padding: 0 6px;
+  padding: 0 6px !important;
   background-color: var(--card-color-filled) !important;
   border-radius: 12px;
   border: none;
@@ -14476,36 +14477,14 @@ body:active .container_d9c882:not(:active) {
   color: var(--alert-text-color);
 }
 
-/* SERVER LIST ->  Better Server List */
-.bar_c38106{
-  z-index: 28371983721897;
-}
+/* server list and titlebar */
 .title_c38106{
   background-color: transparent;
   background: linear-gradient(to bottom, var(--background-base-lowest), #00000000);
 }
-.title_f75fb0{
-  -webkit-app-region: drag;
-}
-
 .sidebar_c48ade{
   overflow: visible !important;
   position: relative;
-}
-
-.sidebarList_c48ade{
-  margin-left: 72px;
-}
-
-.wrapper_ef3116{
-  position: absolute;
-  top: -35px;
-  height: calc(100vh - 65px);
-  /* padding-top: 10px; */
-}
-
-[class^="stack_dbd263 scroller_ef3116"]{
-  padding-top: 40px !important;
 }
 
 /* SERVER LIST -> SERVER */
@@ -16314,15 +16293,20 @@ body:active .container_d9c882:not(:active) {
   gap: 8px;
 }
 
-.basicThemeSelectors_fbfab6fbfab6 {
-  margin-bottom: 0;
+.basicThemeSelectors_fbfab6fbfab6fbfab6fbfab6fbfab6 {
+  margin-bottom: 16px;
 }
-.basicThemeSelectors_fbfab6fbfab6 .themeSelectionContainer__36dee {
+.basicThemeSelectors_fbfab6fbfab6fbfab6fbfab6fbfab6 .themeSelectionContainer__36dee {
   width: 84px;
   height: 84px;
   padding: 12px;
   background-color: var(--main-color);
   border-radius: var(--card-radius-big);
+}
+.basicThemeSelectors_fbfab6fbfab6fbfab6fbfab6fbfab6 + .premiumFeatureBorder__65c15 {
+  margin: 0 -8px -8px;
+  background: linear-gradient(var(--card-color-filled), var(--card-color-filled)) padding-box, linear-gradient(45deg, hsl(269, calc(var(--saturation-factor, 1) * 52.7%), 52.7%), hsl(325, calc(var(--saturation-factor, 1) * 31.7%), 51.8%)) border-box;
+  border-radius: calc(var(--card-radius-big) - 4px);
 }
 
 .selectionCircle__36dee {
