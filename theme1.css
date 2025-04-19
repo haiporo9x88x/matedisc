@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.6.6 */
+/* Version 1.6.7 */
 
 /*
 *
@@ -933,7 +933,6 @@ body,
 .panels_c48ade > div:not(:empty):first-of-type {
   border-top-left-radius: var(--sidebar-panel-radius-big);
   border-top-right-radius: var(--sidebar-panel-radius-big);
-  border: 1px solid var(--card-border-color);
 }
 .panels_c48ade > div:not(:empty):first-of-type .contentWrapper__0d616 {
   --sidebar-panel-radius-big: var(--popout-radius-big) !important;
@@ -945,7 +944,6 @@ body,
 .panels_c48ade > div:not(:empty):last-of-type {
   border-bottom-left-radius: var(--sidebar-panel-radius-big);
   border-bottom-right-radius: var(--sidebar-panel-radius-big);
-  border: 1px solid var(--card-border-color);
 }
 .panels_c48ade > div:empty:first-of-type + .container__37e49 {
   border-top-left-radius: var(--sidebar-panel-radius-big);
@@ -988,7 +986,6 @@ body,
   margin-bottom: 2px;
   border-radius: var(--sidebar-panel-radius-small);
   border-bottom: none !important;
-  border: 1px solid var(--card-border-color);
 }
 
 .activityPanel_c48ade {
@@ -1081,6 +1078,18 @@ body,
 .container_bd9e38 .video_bd9e38 {
   margin-top: -8px;
   border-radius: var(--popout-radius-big);
+}
+
+/* CHANNELS LIST PANELS -> Old UI */ 
+.visual-refresh section.panels_c48ade {
+  margin-left: var(--custom-guild-list-width);
+  width: calc(100% - var(--space-xs)*2 - var(--custom-guild-list-width)) !important;
+  .actionButtons_e131a9 button {
+    padding: 0;
+  }
+}
+nav.guilds_c48ade {
+  margin-bottom: 0 !important;
 }
 
 /* CHANNELS LIST PANELS -> QUEST */
@@ -3097,7 +3106,7 @@ body,
   padding: 12px !important;
   background-color: var(--sidebar-panel-color) !important;
   border-radius: 4px;
-  border: 1px solid var(--card-border-color);
+  border-bottom: none !important;
 }
 .panels_c48ade > div:empty:first-of-type + #vc-spotify-player {
   border-top-left-radius: var(--sidebar-panel-radius-big);
