@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.6.9 */
+/* Version 1.7.0 */
 
 /*
 *
@@ -1550,11 +1550,12 @@ nav.guilds_c48ade {
 .wrapper_cb9592.minimum_cb9592 {
   background-color: var(--chat-color);
 }
-.wrapper_cb9592 .callContainer_cb9592 {
-  border-radius: var(--card-radius-big) 0 0 var(--card-radius-big);
-}
 .wrapper_cb9592.sidebarOpen_cb9592 .callContainer_cb9592 {
-  border-radius: var(--card-radius-big);
+  border-top-right-radius: var(--card-radius-big);
+  border-bottom-right-radius: var(--card-radius-big);
+}
+.videoGrid_a21736 {
+  background: var(--bg-overlay-2);
 }
 
 .content_f75fb0:before {
@@ -5262,25 +5263,10 @@ nav.guilds_c48ade {
 }
 
 /* BUTTONS -> CALL BUTTONS */
-.colorable_f1ceac {
-  --button-background: var(--menu-item-hover);
-  --button-text-color: hsl(0,0%,100%);
-  background-color: var(--button-background) !important;
-  color: var(--button-text-color) !important;
+.buttonSection__1405b.experimentButtonSection__1405b {
+  background: var(--bg-overlay-4);
 }
-.colorable_f1ceac:after {
-  position: absolute;
-  content: " ";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 50%;
-  opacity: 0;
-  pointer-events: none;
-  transition: var(--default-time) var(--default-animation) opacity;
-}
+
 .colorable_f1ceac:hover:after {
   opacity: var(--button-action-hover);
 }
@@ -9734,7 +9720,7 @@ body:active .root__49fc1 .container_d9c882:not(:active) {
 .root__49fc1 .header__49fc1 {
   margin: 0;
   padding: 24px 24px 16px;
-  background-color: transparent;
+  background: var(--bg-overlay-3);
   border-radius: var(--popout-radius-big) var(--popout-radius-big) 0 0;
   box-shadow: none !important;
 }
@@ -9819,9 +9805,10 @@ body:active .root__49fc1 .container_d9c882:not(:active) {
   padding: 75px 16px 16px;
 }
 .root__49fc1 .content__49fc1, .root__49fc1 .content-3BqJRb {
-  padding: 0 24px;
-  background-color: transparent;
-  border-radius: 0 0 var(--popout-radius-big) var(--popout-radius-big);
+  background: var(--bg-overlay-3) !important;
+}
+.content__49fc1 {
+  border-radius: 0;
 }
 .root__49fc1 .content__49fc1:first-child, .root__49fc1 .content-3BqJRb:first-child {
   padding-top: 24px;
@@ -9843,18 +9830,13 @@ body:active .root__49fc1 .container_d9c882:not(:active) {
 .root__49fc1 .content__49fc1 a, .root__49fc1 .content-3BqJRb a {
   color: hsl(var(--accent-hsl--material-you));
 }
-.root__49fc1 .content__49fc1 img, .root__49fc1 .content-3BqJRb img,
-.root__49fc1 .content__49fc1 video,
-.root__49fc1 .content-3BqJRb video {
-  border-radius: var(--card-radius-big);
-}
 .root__49fc1 .image-ZPv20Y {
   border-radius: var(--card-radius-big);
 }
 .root__49fc1 .footer__49fc1, .root__49fc1 .modalFooter_ababa2, .root__49fc1 .modalFooter__2bb83 {
   padding: 24px;
   gap: 16px;
-  background-color: transparent !important;
+  background: var(--bg-overlay-3) !important;
   border-radius: 0 0 var(--popout-radius-big) var(--popout-radius-big);
   box-shadow: none !important;
 }
@@ -18299,19 +18281,6 @@ body:active .container_d9c882:not(:active) {
 .socialLinks__7df54,
 .info__2debe {
   padding: 8px 12px 8px 26px;
-}
-
-/* SIDEBAR -> LIGHT THEME WITH DARK SIDEBAR */
-.sidebarRegion__23e6b.theme-dark:after {
-  position: absolute;
-  content: " ";
-  width: calc(100vw - 246px);
-  height: 100%;
-  top: 0;
-  right: 0;
-  background-color: var(--main-alt);
-  pointer-events: none;
-  z-index: -1;
 }
 
 /*
