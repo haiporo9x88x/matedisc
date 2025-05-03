@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.7.0 */
+/* Version 1.7.0.1 */
 
 /*
 *
@@ -18993,9 +18993,6 @@ body:active .container_d9c882:not(:active) {
 .visual-refresh .auditLog__43dab:last-of-type {
   border-bottom-left-radius: var(--card-radius-big);
   border-bottom-right-radius: var(--card-radius-big);
-}
-.visual-refresh .container__5aa3a {
-  border-radius: calc(var(--card-radius-big) / 1.5);
 }
 .visual-refresh .header__0b563,
 .visual-refresh .content_f75fb0 {
