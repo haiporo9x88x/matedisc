@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.7.1 */
+/* Version 1.7.2 */
 
 /*
 *
@@ -17138,18 +17138,8 @@ body:active .container_d9c882:not(:active) {
 .accountProfileCard__1fed1 .banner__68edb {
   border-radius: var(--card-radius-big);
 }
-.accountProfileCard__1fed1 .userInfo__1fed1 {
-  position: relative;
-  height: 88px;
-  padding: 16px 16px 16px 130px;
-}
 .accountProfileCard__1fed1 .userInfo__1fed1 .wrapper__44b0c {
-  width: 94px !important;
-  height: 94px !important;
-  top: unset;
-  bottom: 21px;
-  background-color: var(--card-color-filled);
-  border: 8px solid var(--card-color-filled);
+  background-color: transparent;
 }
 .accountProfileCard__1fed1 .mask__68edb circle {
   display: none;
@@ -17160,15 +17150,6 @@ body:active .container_d9c882:not(:active) {
   padding: 0;
   background-color: transparent;
   border-radius: 0 0 var(--card-radius-big) var(--card-radius-big);
-}
-.accountProfileCard__1fed1 .background__1fed1:before {
-  position: absolute;
-  content: " ";
-  width: calc(100% - 32px);
-  height: 1px;
-  top: 0;
-  left: 16px;
-  background-color: var(--card-border-color);
 }
 .accountProfileCard__1fed1 .background__1fed1 .fieldList__1fed1 {
   margin-top: 0;
@@ -17183,8 +17164,11 @@ body:active .container_d9c882:not(:active) {
 .accountProfileCard__1fed1 .badgeList__1fed1 {
   height: 32px;
   padding: 0 8px;
-  background-color: var(--card-color-hover) !important;
+  margin-left: 150px;
   border-radius: 16px;
+  margin-top: -35px;
+  background: linear-gradient(135deg, rgb(16, 177, 24), rgb(189, 20, 180) 100%) padding-box, linear-gradient(90deg,rgba(87, 193, 199, 1) 0%, rgba(237, 221, 83, 1) 100%) border-box;
+  border: 3px solid transparent;
 }
 
 .banner__68edb:before {
