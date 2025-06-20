@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.7.5 */
+/* Version 1.7.6 */
 
 /*
 *
@@ -398,21 +398,33 @@ body,
  */
  .visual-refresh .winButton__421ed.winButtonMinMax__421ed:nth-of-type(1), .visual-refresh .winButton_c38106.winButtonMinMax__421ed:nth-of-type(1), .visual-refresh .winButton__421ed.winButtonMinMax_c38106:nth-of-type(1), .visual-refresh .winButton_c38106.winButtonMinMax_c38106:nth-of-type(1) {
   background-color: var(--app-button-min);
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  color: var(--app-button-min);
 }
-.visual-refresh .winButton__421ed.winButtonMinMax__421ed:nth-of-type(2), .visual-refresh .winButton_c38106.winButtonMinMax__421ed:nth-of-type(2), .visual-refresh .winButton__421ed.winButtonMinMax_c38106:nth-of-type(2), .visual-refresh .winButton_c38106.winButtonMinMax_c38106:nth-of-type(2){
+.visual-refresh .winButton__421ed.winButtonMinMax__421ed:nth-of-type(2), .visual-refresh .winButton_c38106.winButtonMinMax__421ed:nth-of-type(2), .visual-refresh .winButton__421ed.winButtonMinMax_c38106:nth-of-type(2), .visual-refresh .winButton_c38106.winButtonMinMax_c38106:nth-of-type(2) {
   background-color: var(--app-button-max);
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  color: var(--app-button-max);
 }
 .winButton__421ed.winButtonClose__421ed, .winButton_c38106.winButtonClose__421ed, .winButton__421ed.winButtonClose_c38106, .winButton_c38106.winButtonClose_c38106 {
   background-color: var(--app-button-close);
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  color: var(--app-button-close);
+}
+ .visual-refresh .winButton__421ed.winButtonMinMax__421ed:nth-of-type(1), .visual-refresh .winButton_c38106.winButtonMinMax__421ed:nth-of-type(1), .visual-refresh .winButton__421ed.winButtonMinMax_c38106:nth-of-type(1), .visual-refresh .winButton_c38106.winButtonMinMax_c38106:nth-of-type(1):hover {
+  min-height: 20px;
+}
+.visual-refresh .winButton__421ed.winButtonMinMax__421ed:nth-of-type(2), .visual-refresh .winButton_c38106.winButtonMinMax__421ed:nth-of-type(2), .visual-refresh .winButton__421ed.winButtonMinMax_c38106:nth-of-type(2), .visual-refresh .winButton_c38106.winButtonMinMax_c38106:nth-of-type(2):hover {
+  min-height: 20px;
+}
+.winButton__421ed.winButtonClose__421ed, .winButton_c38106.winButtonClose__421ed, .winButton__421ed.winButtonClose_c38106, .winButton_c38106.winButtonClose_c38106:hover {
+  min-height: 20px;
 }
 
 /*
