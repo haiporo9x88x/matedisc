@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.7.6 */
+/* Version 1.8.0 */
 
 /*
 *
@@ -2257,25 +2257,16 @@ nav.guilds_c48ade {
 }
 
 .floatingBars__74017:empty + .stackedBars__74017:nth-child(2) {
-  border-top-left-radius: var(--main-textarea-radius);
-  border-top-right-radius: var(--main-textarea-radius);
+  border-top-left-radius: var(--card-radius-big);
+  border-top-right-radius: var(--card-radius-big);
+}
+.replyBar__841c8 {
+  border-radius: var(--card-radius-big);
 }
 
 .stackedBars__74017 {
   position: relative;
   border-radius: var(--main-textarea-radius) var(--main-textarea-radius) 0 0;
-}
-.stackedBars__74017:after {
-  position: absolute;
-  content: " ";
-  width: calc(100% - 24px);
-  height: 1px;
-  left: 0;
-  bottom: 0;
-  margin: 0 12px;
-  background-color: var(--separator-color);
-}
-.stackedBars__74017 .replyBar__841c8 {
 }
 
 .mentionButton__841c8 {
@@ -7591,7 +7582,35 @@ div[role=radiogroup].group__344e6 {
  *	MESSAGES
  *
  */
-/*#region Message*/
+/*yapping time*/
+.typingDots_b88801 > .ellipsis_b88801+.text_b88801 {
+  font-size: 0;
+  height: 16px;
+  >strong {
+    font-size: 12px;
+    &::after {
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+    &:last-child::after {
+      content: " is yapping...";
+    }
+    &:last-child:not(:first-child)::after {
+      content: " are yapping...";
+    }
+    &:nth-last-child(2)::after {
+      content: " and "
+    }
+    &:nth-last-child(3)::after {
+      content: ", ";
+    }
+  }
+  &:not(:has(>strong))::after {
+    font-size: 12px;
+    content: "Several people are yapping...";
+  }
+}
+/*region Message*/
 .message__5126c:not(.systemMessage__5126c), .message__5126c:not(.systemMessage__5126c):hover {
   margin-left: 60px !important;
   margin-top: .125rem;
@@ -18361,9 +18380,11 @@ body:active .container_d9c882:not(:active) {
 .visual-refresh .bar_c38106 .title__85643:before {
   content: var(--app-watermark-one);
   font-weight: 700;
+  color: white;  
 }
 .visual-refresh .bar_c38106 .title__85643:after {
   content: var(--app-watermark-two);
+  color: white;
 }
 .visual-refresh .bar_c38106 .title__85643 .guildIcon__85643,
 .visual-refresh .bar_c38106 .title__85643 .text-sm\/medium_cf4812,
