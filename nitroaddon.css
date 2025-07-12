@@ -184,7 +184,7 @@
 .theme-light .activityPanel_c48ade,
 .theme-light .listeningAlong_e0cf27,
 .theme-light .container_6sXIoE {
-  background: var(--bg-overlay-floating, var(--background-base-low, var(--background-secondary-alt))) !important;
+  background: var(--background-gradient-highest) !important;
 }
 
 .theme-dark .chat_f75fb0,
@@ -395,6 +395,9 @@
 }
 .vc-spotify-button:hover {
   background: var(--background-gradient-higher);
+}
+#vc-spotify-player {
+  background:var(--background-gradient-highest) !important;
 }
 
 .theme-dark .slider_a562c8 .bar_a562c8 .barFill_a562c8,
