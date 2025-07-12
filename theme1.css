@@ -1,7 +1,7 @@
 /*Inspired by MaterialDiscord theme from CapnKitten#3192*/
 /*Source: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Material-Discord */
 
-/* Version 1.9.0 */
+/* Version 1.9.1 */
 
 /*
 *
@@ -7556,10 +7556,15 @@ div[role=radiogroup].group__344e6 {
 
 .newMosaicStyle__4d95d .textContainer__4d95d {
   border-radius: var(--media-radius) var(--media-radius) 0 0;
+  background: var(--background-gradient-lowest);
+  border: 1px solid var(--separator-color)
 }
 .newMosaicStyle__4d95d .footer__4d95d {
   border-radius: 0 0 var(--media-radius) var(--media-radius);
-  border-top: 1px solid var(--separator-color);
+  border-bottom: 1px solid var(--separator-color);
+  border-left: 1px solid var(--separator-color);
+  border-right: 1px solid var(--separator-color);
+  background: var(--background-gradient-lowest);
 }
 
 .codeView__4d95d, .codeView__4d95d * {
@@ -13678,11 +13683,7 @@ body:active .recentMentionsPopout__95796:not(:active) {
 .container__55c99 .resultsGroup__56fec .searchClearHistory__56fec {
   color: var(--text-normal);
 }
-.container__55c99 .header__56fec {
-  color: var(--text-normal);
-  font-size: 14px;
-  text-transform: none;
-}
+
 .container__55c99 .option__56fec {
   margin: 0;
   padding: 0 16px;
@@ -13690,18 +13691,11 @@ body:active .recentMentionsPopout__95796:not(:active) {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.container__55c99 .option__56fec:after {
-}
-.container__55c99 .option__56fec:hover:after {
-}
-.container__55c99 [aria-selected=true].option__56fec {
-}
+
 .container__55c99 [aria-selected=true].option__56fec:after {
   width: 70px;
 }
-.container__55c99 .option__56fec .filter__56fec {
-  color: var(--text-normal);
-}
+
 .container__55c99 .option__56fec .answer__56fec {
   color: var(--text-muted);
 }
@@ -14369,6 +14363,13 @@ body:active .container_d9c882:not(:active) {
  *  SERVER FOLDERS
  *
  */
+.folderIcon__48112 {
+  border-radius: 15px;
+}
+.folderIcon__48112:hover {
+  border-radius: 50%;
+}
+
 .folderGroupBackground__48112 {
   --background-secondary: var(--server-folder-color) !important;
   border-radius: var(--avatar-radius);
@@ -14409,16 +14410,16 @@ body:active .container_d9c882:not(:active) {
   overflow: hidden;
 }
 .wrapper__6e9f8 .childWrapper__6e9f8 {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background: var(--background-gradient-higher);
   border-radius: var(--avatar-radius);
   color: var(--accent-text-color--material-you);
 }
 .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
-  background-color: hsl(var(--accent-hsl--material-you)) !important;
+  background: var(--background-gradient-lowest) !important;
   color: var(--accent-text-color--material-you) !important;
 }
 .wrapper__6e9f8:hover .childWrapper__6e9f8 {
-  background-color: hsl(var(--accent-hsl--material-you)) !important;
+  background: var(--background-gradient-low) !important;
   color: var(--accent-text-color--material-you) !important;
 }
 
